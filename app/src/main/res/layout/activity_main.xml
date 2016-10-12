@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/quiz"
+    android:orientation="vertical"
+    tools:context="com.example.admin.myquizapp.MainActivity">
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer quiz"
+        android:onClick="nextActivity"
+        android:id="@+id/button1"
+        android:textColor="#2EA1D9"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:background="?actionBarItemBackground"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Quiz"
+        android:textColor="#2EA1D9"
+        android:onClick="generalActivity"
+        android:layout_marginBottom="50dp"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:background="?actionBarItemBackground"
+        android:id="@+id/button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="quit the quiz"
+        android:textColor="#2EA1D9"
+        android:onClick="quitQuiz"
+        android:layout_marginBottom="50dp"
+        android:textStyle="italic"
+        android:background="?actionBarItemBackground"
+        android:textSize="24sp"
+        android:id="@+id/buttonExit" />
+
+
+
+
+
+</LinearLayout>

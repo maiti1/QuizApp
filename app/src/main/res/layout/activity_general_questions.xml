@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#3A7563"
+    tools:context="com.example.admin.myquizapp.GeneralQuestions">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who scored the first goal 2010 world cup South Africa"
+            android:textSize="24sp"
+            android:textColor="#52D681"
+            android:layout_marginBottom="25dp"/>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/question1"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/khune"
+                android:text=" Itumeleng Khune"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lebese"
+                android:text="Thabang Lebese"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/motaung"
+                android:text="Kaizer Motaung"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/shaba"
+                android:text="Simphiwe Tshabalala"
+                android:textSize="24sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How many years did Tata Mandela serve in jail"
+            android:textStyle="normal"
+            android:textColor="#52D681"
+            android:textSize="24sp"
+            android:layout_marginBottom="25dp"/>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/question2"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2 years"
+                android:id="@+id/yrs2"
+                android:textSize="24sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 30 years"
+                android:id="@+id/yrs30"
+                android:textSize="24sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 27 years"
+                android:id="@+id/yrs27"
+                android:textSize="24sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 11 years"
+                android:id="@+id/yrs11"
+                android:textSize="24sp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In which year did the ellis park soccer disaster happen"
+            android:textStyle="normal"
+            android:textColor="#52D681"
+            android:textSize="24sp"
+            android:layout_marginBottom="25dp"/>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/question33">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2004"
+                android:id="@+id/yr2004"
+                android:textSize="24sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2002"
+                android:id="@+id/yr2002"
+                android:textSize="24sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2001"
+                android:id="@+id/yr2001"
+                android:textSize="24sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2006"
+                android:id="@+id/yr2006"
+                android:textSize="24sp"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is the first black president in South Africa"
+            android:textStyle="normal"
+            android:textColor="#52D681"
+            android:textSize="24sp"
+            android:layout_marginBottom="25dp"/>
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/question44">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Nelson Mandela"
+                android:textSize="24sp"
+                android:id="@+id/mandela"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Thabo Mbeki"
+                android:textSize="24sp"
+                android:id="@+id/thabo"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Kgalema Motlanthe"
+                android:textSize="24sp"
+                android:id="@+id/kgalema"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Jacob Zuma"
+                android:textSize="24sp"
+                android:id="@+id/zuma"/>
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which bank is the oldest bank in South Africa"
+            android:textStyle="normal"
+            android:textColor="#52D681"
+            android:textSize="24sp"
+            android:layout_marginBottom="25dp"/>
+
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/question55">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Standard Bank"
+                android:textSize="24sp"
+                android:id="@+id/standard"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Absa Bank"
+                android:textSize="24sp"
+                android:id="@+id/absa"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Capitec Bank"
+                android:textSize="24sp"
+                android:id="@+id/capitec"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" First National Bank"
+                android:textSize="24sp"
+                android:id="@+id/fnb"/>
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:textColor="#8BC34A"
+            android:textSize="24sp"
+            android:layout_marginBottom="40dp"/>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="retry"
+            android:background="@drawable/customize_button"
+            android:onClick="clearButton"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="results"
+            android:onClick="showScore"
+            android:background="@drawable/customize_button"
+            android:id="@+id/showScore"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="exit"
+            android:id="@+id/exit"
+            android:background="@drawable/customize_button"
+            android:onClick="backToMain"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_825769baec7884d18182b81f192dcad50180cadc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_6b46dd5ee4028d8545892cc9c76f6117c172216f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_0aa2367d82abb4b21521f2d0386357ad423b4b98\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3e4048d03a8a1a7e96f3d1bbe24147a7332126c3">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f7bbf3815409d1e6d263b29ad9bbdd49601450f4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_7638a04b8d5a17a2bcc828cc8004c8d56f74bb7e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_c4b8a7de51d7961a4d45745aa51b1b0fbf4b00cd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_fc61a38ae6c79bf6b6e53991a8b599a22a910b09\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b78e49db21c7ba9d6dd6557665f8a1fa8fd7eadb">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\MyQuizApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_512807cae30c5da0caa2af5e4144ab97ef853bd3\classes.dex" />
+    </item>
+
+</items>
